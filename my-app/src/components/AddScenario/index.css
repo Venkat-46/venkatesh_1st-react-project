@@ -1,0 +1,72 @@
+.add-scenario-container{
+    color:white;
+}
+.adding-section{
+    background-color: #515253;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:10px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+.adding-section{
+    display: flex;
+    justify-content: space-around;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+.label-text{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.input-box{
+    width:300px;
+    height:40px;
+    background-color: #262728;
+    color:#e9e5e5;
+    font-size: 18px;
+    border:1px solid #7d7e7f;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.error-msg{
+    align-self: center;
+    background-color: #b60707;
+    color:white;
+    padding-top:2px;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-bottom: 2px;
+}
+.error-style{
+    border:2px solid #b60707;
+}
+.add-secnario-buttons-container{
+    margin-top:30px;
+}
+
+.scenario-buttons{
+    color:white;
+    padding-top:10px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.add{
+    background-color: #42da63;
+    margin-right: 15px;
+}
+.reset{
+    background-color: #e3942c;
+    margin-right: 15px;
+}
+.go-back{
+    background-color: #2ad3d9;
+}

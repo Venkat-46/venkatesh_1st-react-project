@@ -1,0 +1,48 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+}
+.select-box{
+    align-self: flex-start;
+    width:200px;
+    height:30px;
+    background-color: #515451;
+    border:2px solid #76b2de;
+    border-radius: 5px;
+    color:#d2cdcd;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.vehicles-list{
+    padding: 0;
+    border-radius: 10px;
+}
+.home-list-heading{
+    background-color:#575857;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top:8px;
+}
+.buttons-container{
+    align-self: flex-end;
+    margin-top: 20px; 
+}
+.button{
+    color:white;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+    padding:10px;
+    outline: none;
+    cursor: pointer;
+}
+.start-button{
+    background-color:#74e56c;
+    margin-right:20px;
+}
+.stop-button{
+    background-color:#7bd5d3;
+}
